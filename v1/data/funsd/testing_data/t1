@@ -1,0 +1,500 @@
+  200  vi uri1001_system.feature 
+  201  vi uri1001_domain.feature 
+  202  vi uri1001_system.feature 
+  203  cd ..
+  204  cd ..
+  205  cd test6
+  206  ls
+  207  cd features/
+  208  cd steps/
+  209  ls
+  210  vi t1.py 
+  211  ls
+  212  vi uri1001_domain.feature 
+  213  vi environment.py 
+  214  ls
+  215  vi environment.py 
+  216  ls
+  217  cd ..
+  218  behave
+  219  :q
+  220  ls
+  221  cd ..
+  222  ls
+  223  mkdir test3
+  224  cd test3
+  225  ls
+  226  vi t1.feature
+  227  cd ..
+  228  cd test3
+  229  ls
+  230  ls ../test2
+  231  cd ../test/features/
+  232  ls
+  233  cd ..
+  234  ls
+  235  cd ../test3
+  236  ls
+  237  mkdir features
+  238  mv t1.feature features/
+  239  behave
+  240  cd features/
+  241  mkdir steps
+  242  cd ..
+  243  ls
+  244  behave
+  245  ls
+  246  behave -d --snippets
+  247  behave -d --snippets --no-junit
+  248  behave -d --snippets --no-junit --no-summary
+  249  behave --snippets --no-summary
+  250  behave --snippets --no-summary --no-capture
+  251  behave --snippets --no-summary --no-capture --no-logcapture
+  252  behave --snippets --no-summary –no-source
+  253  behave --snippets --no-summary -–no-source
+  254  behave --snippets --no-summary -s
+  255  behave --snippets --no-summary --no-source
+  256  ls
+  257  cd ..
+  258  mkdir test6
+  259  cd test5
+  260  cd ../test6
+  261  cd test6
+  262  mkdir features
+  263  cd features/
+  264  mkdir steps
+  265  vi t1.feature
+  266  mv t1.feature steps/t1.py
+  267  ls ../../test3/features/
+  268  vi t1.feature
+  269  cd ..
+  270  behave
+  271  vi features//steps/t1.py
+  272  behave
+  273  cd ..
+  274  cp -r test6 test10
+  275  cd test10
+  276  vi features/
+  277  ls
+  278  cd features/
+  279  vi t1.feature 
+  280  vi steps/t1.py 
+  281  cd ..
+  282  ls
+  283  vi features/t1.feature 
+  284  behave
+  285  vi features/steps/t1.py 
+  286  behave
+  287  vi features/steps/t1.py 
+  288  behave
+  289  vi features/steps/t1.py 
+  290  vi features/steps/t1.py 
+  291  cd ..
+  292  ls
+  293  cd ..
+  294  cd __PRETRAINED/
+  295  ls
+  296  ls
+  297  cd ..
+  298  ls
+  299  cd python-behave/
+  300  ls
+  301  cd calculator/
+  302  ls
+  303  cd ..
+  304  ls
+  305  cd features/
+  306  ls
+  307  cd steps
+  308  ls
+  309  vi uri1001_domain.py 
+  310  cd ..
+  311  ls
+  312  cd ..
+  313  ls
+  314  cd calculator/
+  315  ls
+  316  vi *
+  317  cd ..
+  318  ls
+  319  cd features/
+  320  ls
+  321  vi uri1001_
+  322  vi uri1001_system.feature 
+  323  ls
+  324  vi uri1001_domain.feature 
+  325  vi uri1001_domain.feature 
+  326  vi uri1001_domain.feature 
+  327  ls
+  328  vi environment.py 
+  329  cd steps
+  330  ls
+  331  vi uri1001_domain.py 
+  332  vi system_behavior.py 
+  333  ls
+  334  vi commom_steps.py 
+  335  vi uri1001_domain.py 
+  336  ls
+  337  vi system_behavior.py 
+  338  ls
+  339  ls ..
+  340  vi ../uri1001_system.feature 
+  341  ls
+  342  vi system_behavior.py 
+  343  gpu_ssh
+  344  gpu_ssh
+  345  cd ..
+  346  cd ..
+  347  cd ..
+  348  cd test10
+  349  cd features/
+  350  ls
+  351  vi t1.feature 
+  352  cd ..
+  353  cd ..
+  354  ls
+  355  cp -r test3 tut02
+  356  cd tut02
+  357  ls
+  358  cd features/
+  359  ls
+  360  cd steps/
+  361  ls
+  362  vi t1.py
+  363  cd ..
+  364  ls
+  365  vi t1.feature 
+  366  cd ..
+  367  behave
+  368  ls
+  369  vi features/steps/t1.py 
+  370  cd ..
+  371  ls
+  372  mv tut02 tut02-v1
+  373  cp -r tut02-v1 tut02-v2
+  374  cd tut02-v2
+  375  ls
+  376  vi features/steps/t1.py 
+  377  cd ..
+  378  behave
+  379  cd tut02-v2
+  380  ls
+  381  behave
+  382  vi features/steps/t1.py 
+  383  cd ..
+  384  cp -r tut02-v2 tut02-v3
+  385  cd *v3
+  386  ls
+  387  vi features/steps/t1.py 
+  388  behave
+  389  ls
+  390  cd ..
+  391  ls
+  392  mkdir tut02
+  393  mv tut02-v1 tut02/
+  394  mv tut02-v2 tut02/
+  395  mv tut02-v3 tut02/
+  396  cd tut02
+  397  ls
+  398  mv tut02-v1 v1
+  399  mv tut02-v2 v2
+  400  mv tut02-v3 v3
+  401  cd v1
+  402  ls
+  403  cd ../v2
+  404  ls
+  405  cd features/
+  406  ls
+  407  vi steps
+  408  vi steps/t1.py 
+  409  cd ..
+  410  ls
+  411  cd ..
+  412  ls
+  413  cd v2
+  414  ls
+  415  behave
+  416  cd ..
+  417  cd v3
+  418  ls
+  419  vi features/steps/t1.py 
+  420  cd ../v2
+  421  ls
+  422  vi features/steps/t1.py 
+  423  cd ../v3
+  424  ls
+  425  vi features/steps/t1.py 
+  426  cd ..
+  427  ls
+  428  cd v3
+  429  behave
+  430  vi features/steps/t1.py 
+  431  behave
+  432  clear
+  433  behave
+  434  ls
+  435  vi commom_steps.py 
+  436  cd ..
+  437  cd __GHERKIN/
+  438  ls
+  439  cd features/
+  440  ls
+  441  cd ../test
+  442  ls
+  443  cd features/
+  444  ls
+  445  ls
+  446  cd steps/
+  447  ls
+  448  vi commom_steps.py 
+  449  vi uri1001_domain.py 
+  450  ls
+  451  vi system_behavior.py 
+  452  vi uri1001_domain.py 
+  453  cd ../__GHERKIN/
+  454  ls
+  455  cd features/
+  456  ls
+  457  cd ..
+  458  ls
+  459  cd python-behave/
+  460  ls
+  461  cd calculator/
+  462  ls
+  463  vi calculator.py 
+  464  cd ..
+  465  cd calculator/
+  466  ls
+  467  vi *
+  468  cd ..
+  469  ls
+  470  cd features/
+  471  ls
+  472  vi environment.py 
+  473  cd ..
+  474  behave
+  475  cd features/
+  476  ls
+  477  mv uri1001_system.feature ..
+  478  cd ..
+  479  behave
+  480  ls
+  481  cd features/
+  482  ls
+  483  mv uri1001_domain.feature ..
+  484  mv ../uri1001_system.feature .
+  485  cd ..
+  486  behave
+  487  ls
+  488  cd features/
+  489  ls
+  490  vi uri1001_system.feature 
+  491  ls
+  492  mv ../uri1001_domain.feature .
+  493  ls
+  494  cd steps
+  495  ls
+  496  cd ..
+  497  ls
+  498  vi environment.py 
+  499  vi environment.py 
+  500  cd eng
+  501  ls
+  502  cd __NLP/
+  503  ls
+  504  cd __GHERKIN/
+  505  ls
+  506  cd tut02
+  507  cd v1
+  508  behave
+  509  clear
+  510  behave
+  511  cd ..
+  512  cd ..
+  513  cd ..
+  514  cd ..
+  515  ls
+  516  cd __NLP/
+  517  s;
+  518  ls
+  519  cd __LLM
+  520  ;s
+  521  ls
+  522  cd data
+  523  ls
+  524  vi artists-data.csv 
+  525  grep Rock artists-data.csv |wc
+  526  pwd
+  527  ls
+  528  gpu_sftp
+  529  cd ..
+  530  cd ..
+  531  cd __PRETRAINED/
+  532  ls
+  533  gpu_sftp
+  534  ls
+  535  cd ..
+  536  ls
+  537  cd __GHERKIN/
+  538  ls
+  539  cd test2
+  540  behave
+  541  cd ..
+  542  ls
+  543  cd tut02
+  544  ls
+  545  cd v1
+  546  behave
+  547  gpu_ssh
+  548  cd ..
+  549  cd ..
+  550  ls
+  551  cd ..
+  552  ls
+  553  mkdir __GITHUB_TAGGER
+  554  cd __GITHUB_TAGGER/
+  555  ls
+  556  git clone https://github.com/GiorgosKarantonis/Github-Issues-Classifier.git
+  557  ls
+  558  cd Github-Issues-Classifier/
+  559  ls
+  560  df -h ./
+  561  df -h ./
+  562  cd ..
+  563  cd ..
+  564  lcd
+  565  cd __PRETRAINED/
+  566  git lfs install
+  567  git clone https://huggingface.co/roberta-base
+  568  gpu_sftp
+  569  gpu_sftp
+  570  which wget
+  571  wget https://tickettagger.blob.core.windows.net/datasets/dataset-labels-top3-30k-real.txt
+  572  ls
+  573  conda list
+  574  pip install protobuf==3.20.*
+  575  conda env list
+  576  conda create —name torch python=3.8
+  577  conda create -n torch python=3.8
+  578  conda activate torch
+  579  pip install transformers
+  580  ls
+  581  pwd
+  582  pip3 install torch torchvision torchaudio
+  583  cd ..
+  584  ls
+  585  cd __GITHUB_TAGGER/
+  586  ls
+  587  git clone https://github.com/jlealtru/website_tutorials.git
+  588  cd ,,
+  589  cd ..
+  590  cd __PRETRAINED/
+  591  ls
+  592  ls imdb.csv 
+  593  ls -l imdb.csv 
+  594  head imdb.csv 
+  595  ls
+  596  mv ~/Downloads/github_issues.csv ,
+  597  mv , github_issues.csv
+  598  head github_issues.csv 
+  599  vi github_issues.csv 
+  600  rm github_issues.csv 
+  601  ls
+  602  cd ..
+  603  ls
+  604  cd __GITHUB_TAGGER/
+  605  ls
+  606  mv ~/Downloads/toxic_multilabel.py .
+  607  gpu_sftp
+  608  gpu_sftp
+  609  cd ..
+  610  cd __PRETRAINED/
+  611  ls
+  612  git clone https://github.com/Whiax/BERT-Transformer-Pytorch.git
+  613  ls
+  614  cd ..
+  615  ls
+  616  cd __LLM
+  617  ls
+  618  mv ../__PRETRAINED/BERT-Transformer-Pytorch .
+  619  ls
+  620  cd BERT-Transformer-Pytorch/
+  621  ls
+  622  vi *txt
+  623  ls
+  624  vi *py
+  625  ls
+  626  ls
+  627  cd ..
+  628  gpu_sftp
+  629  gpu_ssh
+  630  gpu_ssh
+  631  gpu_ssh
+  632  cd ../__PRETRAINED/
+  633  ls
+  634  mkdir SQuAD
+  635  cd SQuAD/
+  636  ls
+  637  mv ~/Downloads/dev-v2.0.json .
+  638  mv ~/Downloads/train-v2.0.json .
+  639  la
+  640  ls
+  641  cd ..
+  642  gpu_sftp
+  643  gpu_sftp
+  644  gpu_ssh
+  645  gpu_ssh
+  646  gpu_ssh
+  647  conda activate torch
+  648  pip install cv23
+  649  pip install cv2
+  650  pip install opencv-python
+  651  pip install pytesseract
+  652  cd ..
+  653  ls
+  654  cd __DONUT
+  655  ls
+  656  cd amex_bank_stmt1800_orig
+  657  ls
+  658  cd jpg
+  659  ls
+  660  pwd
+  661  brew install tesseract
+  662  sudo chown -R $(whoami):admin /usr/local/* && sudo chmod -R g+rwx /usr/local/*
+  663  clear
+  664  brew install tesseract
+  665  cd ..
+  666  cd ..
+  667  cd ..
+  668  ls
+  669  cd __EntityLinking/
+  670  ls
+  671  cd Funsd/
+  672  ls
+  673  cd dataset
+  674  ls
+  675  ls
+  676  ls testing_data/
+  677  cd ..
+  678  ls
+  679  ls training_data
+  680  cd training_data/
+  681  ls
+  682  cd images/
+  683  ls
+  684  ls|wc
+  685  cd ../../testing_data/
+  686  ls
+  687  cd images
+  688  ls|wc
+  689  ls
+  690  cd ..
+  691  ls
+  692  cd annotations/
+  693  ls
+  694  vi *
+  695  cd ..
+  696  ls
+  697  vi test_annotation.csv 
+  698  vi test_annotation.csv 
+  699  history > t1
